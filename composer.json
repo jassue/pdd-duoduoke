@@ -1,0 +1,26 @@
+{
+    "name": "jassue/pdd-duoduoke",
+    "description": "拼多多-多多客API SDK",
+    "keywords": [
+        "duoduoke",
+        "pinduoduo",
+        "sdk"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jassue",
+            "email": "jassue@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.2 || ^7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jassue\\DuoDuoKe\\": "src/"
+        }
+    }
+}
